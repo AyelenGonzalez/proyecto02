@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Roboto+Mono:ital,wght@1,300;1,400;1,500&family=Silkscreen&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Silkscreen', cursive;
+}
+.carrousel__div{
+    padding-top: 3rem;
+    min-height: 70vh;
+    background-image: url('../Assets/backgound.png');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat:no-repeat;
+
+}
+main{
+  background: rgb(237,174,249);
+  background: linear-gradient(278deg, rgba(237,174,249,1) 19%, rgba(192,121,231,1) 30%, rgba(194,175,249,1) 39%, rgba(129,177,250,1) 45%, rgba(129,177,250,1) 51%);
+}
+@media screen and (max-width: 768px){
+    .carrousel__div{
+        min-height: 10vh;
+    }
+}
